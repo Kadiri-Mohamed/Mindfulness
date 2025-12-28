@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Mindfulness Popup",
+  "version": "1.0",
+  "description": "A mindful pause every time you open a new tab.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "Author": "Kadiri Mohamed"
+}

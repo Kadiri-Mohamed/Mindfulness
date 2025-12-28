@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial, sans-serif;
+  color: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.breathing-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #81c784;
+  margin: 30px auto;
+  animation: breathe 6s infinite;
+}
+
+@keyframes breathe {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+button {
+  background: transparent;
+  border: 1px solid #a5d6a7;
+  color: #a5d6a7;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
